@@ -1,11 +1,11 @@
-import Hero from "./sections/Hero"
+import Hero from "./sections/Hero";
 
 const App = () => {
   return (
     <>
-    <Hero/>
+      <Hero />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,6 +1,7 @@
 import React from "react";
 import { words } from "../components/constants";
 import Button from "../components/Button";
+import HeroExperience from "../components/Hero Models/HeroExperience";
 
 const Hero = () => {
   return (
@@ -10,6 +11,12 @@ const Hero = () => {
 
       <div className="hero layout">
         <header className="flex flex-col justify-around md:w-full w-screen md:px-20 px-5">
+          {/* 3D Experience */}
+          <figure>
+            <div className="hero-3d-layout border-red-400">
+              <HeroExperience />
+            </div>
+          </figure>
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
